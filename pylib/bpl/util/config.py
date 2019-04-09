@@ -1,0 +1,20 @@
+import os
+
+CURRENT_RUN_DIR = os.path.dirname(os.path.abspath(__file__))
+ICON_PATH = os.path.abspath(os.path.join(CURRENT_RUN_DIR, '..', '..', '..', 'src', 'resources', 'images'))
+LANGUAGE = os.path.abspath(os.path.join(CURRENT_RUN_DIR, '..', 'language'))
+CONFIG_PATH = CURRENT_RUN_DIR
+RECORD = os.path.join(os.environ['temp'], 'bp', 'record', 'record.json')
+RECORD_USER = os.path.join(os.environ['temp'], 'bp', 'record', 'user.json')
+RECORD_LANGUAGE = os.path.join(os.environ['temp'], 'bp', 'record', 'language.json')
+RECORD_PRO_SHOT = os.path.join(os.environ['temp'], 'bp', 'record', 'pro_shot.json')
+START_MAYA_PATH = os.path.abspath(os.path.join(CURRENT_RUN_DIR, '..', 'bat', 'launch_maya.bat'))
+START_RV_PATH = os.path.abspath(os.path.join(CURRENT_RUN_DIR, '..', 'bat', 'launch_rv.bat'))
+START_NUKE_PATH = os.path.abspath(os.path.join(CURRENT_RUN_DIR, '..', 'bat', 'launch_nuke.bat'))
+START_NUKEX_PATH = os.path.abspath(os.path.join(CURRENT_RUN_DIR, '..', 'bat', 'launch_nukeX.bat'))
+FRAME_SUBMIT_PATH = os.path.abspath(os.path.join(CURRENT_RUN_DIR, '..', '..', '..', 'frame_submit', 'bin', 'frame_submit.bat'))
+DAILIES_TOOL_PATH = os.path.abspath(os.path.join(CURRENT_RUN_DIR, '..', '..', '..', 'bp_dailies', 'bin', 'bp_dailies.bat'))
+TEXPUB_TOOL_PATH = os.path.abspath(os.path.join(CURRENT_RUN_DIR, '..', '..', '..', 'bp_texpub', 'bin', 'bp_texpub.bat'))
+BPPUB_TOOL_PATH = os.path.abspath(os.path.join(CURRENT_RUN_DIR, '..', '..', '..', 'bp_publish', 'bin', 'bp_publish.bat'))
+BPQC_TOOL_PATH = os.path.abspath(os.path.join(CURRENT_RUN_DIR, '..', '..', '..', 'bp_qc', 'bin', 'bp_qc.bat'))
+INGEST_TOOL_PATH = os.path.abspath(os.path.join(CURRENT_RUN_DIR, '..', '..', '..', 'bp_ingest', 'bin', 'bp_ingest.bat'))
